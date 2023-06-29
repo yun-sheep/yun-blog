@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: backgroud
+  datasource:
+    url: jdbc:mysql://localhost:3306/dianping?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&allowPublicKeyRetrieval=true
+
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.NonRegisteringDriver
+    username: root
+server:
+  port: 8081
+#上传
+upload:
+  cos:
+    secretId: AKIDgxHZdWCg8NNBl8QXQ6XlneS4UffS5Ur4
+    secretKey: 73kNvKeaXL2OdlhdO7nRwNg4MWffeVBr
+    url: https://blog-1314950400.cos.ap-chengdu.myqcloud.com
+    region: ap-chengdu
+    bucketName: blog-1314950400
+
+
+
+
