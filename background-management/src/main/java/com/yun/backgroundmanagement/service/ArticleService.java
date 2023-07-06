@@ -42,7 +42,7 @@ public interface ArticleService extends IService<Article> {
     void updateArticle(ArticleDTO article);
 
     /**
-     * 编辑文章
+     * 编辑文章（从数据库中查出文章然后进行编辑）
      *
      * @param articleId 文章id
      * @return 文章

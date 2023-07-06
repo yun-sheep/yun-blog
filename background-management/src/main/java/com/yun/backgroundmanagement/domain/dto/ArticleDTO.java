@@ -35,7 +35,7 @@ public class ArticleDTO {
     private String articleTitle;
 
     /**
-     * 文章内容
+     * 文章内容（难道直接是存在一个字段吗）
      */
     @NotBlank(message = "文章内容不能为空")
     @ApiModelProperty(value = "文章内容")

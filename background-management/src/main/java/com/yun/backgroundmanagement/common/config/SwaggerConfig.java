@@ -14,6 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 @Configuration
 @EnableSwagger2WebMvc
 public class SwaggerConfig {
+
     @Bean
     Docket foregroundApi(){
         return SwaggerCore.defaultDocketBuilder("后台管理系统",

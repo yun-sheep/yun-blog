@@ -33,7 +33,7 @@ public class Article {
      */
     private Integer categoryId;
     /**
-     *
+     *文章封面
      */
     private String articleCover;
     /**

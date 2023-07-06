@@ -5,7 +5,7 @@ import com.yun.backgroundmanagement.entity.Article;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @Description
+ * @Description 文章mpper
  * @auther j2-yizhiyang
  * @date 2023/5/3 16:22
  */

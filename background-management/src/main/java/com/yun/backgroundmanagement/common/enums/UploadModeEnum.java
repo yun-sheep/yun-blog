@@ -17,7 +17,12 @@ public enum UploadModeEnum {
     private final String mode;
 
     private final String strategy;
-
+    /**
+     * 上传文件(根据路径和上传文件进行上传）
+     *
+     * @param mode 上传模式
+     * @return 执行上传的策略（要根据这个调用相应的上传策略）
+     */
     public static String GetStrategy(String mode) {
         for (UploadModeEnum value : UploadModeEnum.values()) {
             if (value.getMode().equals(mode)) {

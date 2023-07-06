@@ -13,7 +13,7 @@ import java.io.InputStream;
  * @auther j2-yizhiyang
  * @date 2023/5/2 15:23
  */
-//TODO 这个架构为什么要用抽象类，直接用接口不行码
+//TODO 这个架构为什么要用抽象类，直接用接口不行码(设计模式：
 public abstract class AbstractUploadImpl implements UploadStrategy {
     @Override
     public String uploadFile(MultipartFile file, String path) {
